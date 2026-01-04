@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NationData API</title>
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/main.js" defer></script>
+</head>
+<body>
+<!-- Header -->
+<%- include('partials/header') %>
+
+<!-- Sidebar -->
+<aside class="sidebar">
+  <div class="logo-section">
+    <h2>NationData<span>v1.0</span></h2>
+    <p>Free Country Data</p>
+  </div>
+  <nav class="menu">
+    <div class="menu-item active">Home</div>
+    <div class="menu-group">
+      <div class="menu-item header">End Points</div>
+      <ul class="sub-menu">
+        <li><span class="bullet"></span> By Country Name</li>
+        <li><span class="bullet"></span> By Continent</li>
+        <li><span class="bullet"></span> Country List</li>
+        <li><span class="bullet"></span> Continent List</li>
+        <li><span class="bullet"></span> All Country Data</li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
+<!-- Main content -->
+<main class="main-content">
+  <div class="welcome-section">
+    <h1>Welcome to NationData API</h1>
+    <p>A free and open REST API providing comprehensive country data for developers worldwide.</p>
+  </div>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🌍</div>
+      <h3>Global Coverage</h3>
+      <p>Access detailed information about countries from all continents around the world.</p>
+    </div>
+    
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <h3>Fast & Reliable</h3>
+      <p>Lightning-fast response times with 99.9% uptime guarantee for your applications.</p>
+    </div>
+    
+    <div class="feature-card">
+      <div class="feature-icon">🔓</div>
+      <h3>Free to Use</h3>
+      <p>No authentication required. Start using the API immediately without any signup.</p>
+    </div>
+    
+    <div class="feature-card">
+      <div class="feature-icon">📊</div>
+      <h3>Rich Data</h3>
+      <p>Comprehensive country data including demographics, geography, and more.</p>
+    </div>
+  </div>
+
+  <div class="info-section">
+    <div class="info-card">
+      <h2>🚀 Getting Started</h2>
+      <p>Start exploring the API by selecting an endpoint from the sidebar. Each endpoint provides specific country data that you can integrate into your applications.</p>
+      <div class="code-example">
+        <code>GET https://nationdata-api.com/api/countries</code>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h2>📖 About This Project</h2>
+      <p>NationData API is a free, open-source project designed to provide developers with easy access to country information. Whether you're building a educational platform, analytics dashboard, or any application requiring country data, NationData has you covered.</p>
+    </div>
+  </div>
+</main>
+</body>
+</html>

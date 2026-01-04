@@ -19,6 +19,19 @@ Now I want to connect the project to GitHub and make my first commit.
 
 
 
+# Phase 2 Notes
+
+I have successfully uploaded the project code to GitHub.
+
+I am now planning which API endpoints I need to create.
+
+Considering using Swagger to test and document the API.
+
+I used AI tools to enhance the design and improve the UI/UX.
+
+
+
+
 
 
 
